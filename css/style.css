@@ -70,7 +70,7 @@ figcaption {
 }
 
 div {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #FFFF8C;
   padding: 1rem;
   margin-bottom: 2rem;
   border-radius: 8px;
@@ -111,7 +111,7 @@ input {
 /* Rating Section Styles */
 .rating-section {
   flex: 1 1 300px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #eeeeee;
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid #966fb6;
@@ -162,12 +162,17 @@ input {
   }
 }
 
+.grid-wrapper {
+  background-color: #FFFF8C;
+  padding: 2rem;
+}
+
 .ingredients-section, .rating-section {
   flex: 1 1 300px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #eeeeee;
   padding: 1rem;
   border-radius: 8px;
-  border: 1px solid #ffc067;
+  border: 1px solid #ff4d00;
 }
 
 .right-column {
@@ -175,16 +180,17 @@ input {
   flex-direction: column;
   align-items: center;
   flex: 1 1 300px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #FFFF8C;
   padding: 1rem;
   border-radius: 8px;
-  border: 1px solid #ffc067;
+  border: 1px solid #ff4d00;
   gap: 2rem;
 }
 
 .conversion-section {
   text-align: center;
-  border: 1px solid #ffc067;
+  border: 1px solid #ff4d00;
+  background-color: #eeeeee;
 }
 
 .conversion-section input {
@@ -229,8 +235,8 @@ input {
 .links, .picture, .rating-conversion,
 .ingredients-section, .equipment-section,
 .directions-box, .footer {
-  background-color: rgba(255, 255, 255, 0.9);
-  border: 1px solid #ffc067;
+  background-color: #eeeeee;
+  border: 1px solid #ff4d00;
   border-radius: 8px;
   padding: 1rem;
 }
