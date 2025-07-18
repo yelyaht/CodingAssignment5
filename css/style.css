@@ -175,6 +175,12 @@ input {
   border: 1px solid #ff4d00;
 }
 
+.rating-section label,
+.rating-section input[type="radio"] + label {
+  color: #966fd6;
+  font-weight: bold;
+}
+
 .right-column {
   display: flex;
   flex-direction: column;
@@ -260,12 +266,23 @@ input {
     justify-content: space-between;
     align-items: center;
     background-color: #6ac5fe;
-    color: black;
+    color: white;
     padding: 1rem;
     text-align: center;
     border-radius: 8px;
     border: none;
     flex-wrap: wrap;
+}
+
+.footer a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer p {
+  color: black;
+  margin: 0;
 }
 
 .recipe-links {
