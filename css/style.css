@@ -70,7 +70,7 @@ figcaption {
 }
 
 div {
-  background-color: #FFFF8C;
+  background-color: #00000000;
   padding: 1rem;
   margin-bottom: 2rem;
   border-radius: 8px;
@@ -270,9 +270,11 @@ input {
     color: white;
     padding: 1rem;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 6px;
     border: none;
     flex-wrap: wrap;
+    line-height: 1%;
+    bottom-line-height: 100%;
 }
 
 .footer a {
