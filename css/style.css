@@ -111,7 +111,7 @@ input {
 /* Rating Section Styles */
 .rating-section {
   flex: 1 1 300px;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid #966fb6;
@@ -169,7 +169,7 @@ input {
 
 .ingredients-section, .rating-section {
   flex: 1 1 300px;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid #ff4d00;
@@ -190,7 +190,7 @@ input {
 .conversion-section {
   text-align: center;
   border: 1px solid #ff4d00;
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
 
 .conversion-section input {
@@ -235,7 +235,7 @@ input {
 .links, .picture, .rating-conversion,
 .ingredients-section, .equipment-section,
 .directions-box, .footer {
-  background-color: #eeeeee;
+  background-color: #ffffff;
   border: 1px solid #ff4d00;
   border-radius: 8px;
   padding: 1rem;
@@ -254,3 +254,12 @@ input {
     clear: both;
     display: block;
     }
+
+.footer {
+    background-color: #6ac5fe;
+    color: black;                
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
