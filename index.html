@@ -69,20 +69,21 @@
     </header>
 
     <div class="links">
+      <nav class="recipe-links">
+        <a href="#">Recipes</a> <!-- Replace this a header of sorts -->
+        <a href="#">Recipe 1</a> <!-- Replace # with actual appetizer links -->
+        <a href="#">Recipe 2</a> <!-- Replace # with actual entree links -->
+        <a href="#">Recipe 3</a> <!-- Replace # with actual dessert links -->
+        <a href="#">Recipe 4</a> <!-- Replace # with actual sides links -->
+      </nav>
+    </div>
+
+    <div class="picture">
       <h2>Tiramisu</h2>
       <p>
         This recipe is adapted from "Tastes Better From Scratch" written by Lauren Allen.
         And found on <a href="https://tastesbetterfromscratch.com/easy-tiramisu/">https://tastesbetterfromscratch.com/easy-tiramisu/</a>
       </p>
-      <nav class="recipe-links"> <!-- Replace # with actual links -->
-        <a href="#">Recipe 1</a>
-        <a href="#">Recipe 2</a>
-        <a href="#">Recipe 3</a>
-        <a href="#">Recipe 4</a>
-      </nav>
-    </div>
-
-    <div class="picture">
       <figure>
         <img src="image/tiramisu.jpg" alt="dessert" class="tiramisu">
         <figcaption>Photo by: Lauren Allen</figcaption>
@@ -94,9 +95,14 @@
     <h3 class="rate">Rate This Recipe</h3>
     <fieldset>
       <legend>How difficult is this recipe?</legend>
-      <input type="radio" id="easy" name="easy"> Easy
-      <input type="radio" id="med" name="easy"> Intermediate
-      <input type="radio" id="hard" name="easy"> Hard
+      <input type="radio" id="easy" name="easy">
+      <label for="easy">Easy</label>
+
+      <input type="radio" id="med" name="easy">
+      <label for="easy">Intermediate</label>
+
+      <input type="radio" id="hard" name="easy">
+      <label for="easy">Hard</label>
     </fieldset>
   </div>
 
@@ -150,8 +156,8 @@
         <p>This page was created as an academic activity only.</p>
       </div>
     </footer>
-    </div>
+    <!-- </div> -->
   </body>
 </html>
 
-<!-- Header saying "Unlock your baking creativity" -->
+<!-- Header could be a cherry blossom gif with words over it saying "Unlock your baking creativity" -->
